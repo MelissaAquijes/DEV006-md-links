@@ -1,5 +1,5 @@
 {
-  "name": "md-links",
+  "name": "md-links-melissaaquijes",
   "version": "0.1.0",
   "engines": {
     "node": ">=16.x"
@@ -8,5 +8,26 @@
     "createdAt": "2023-05-17T14:36:24.002Z",
     "version": "6.2.0",
     "commit": "6de8e2f7e38d779fd6845c63477977fb1eb3af99"
+  },
+  "description": "Module to validate Markdown file links",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [
+    "markdown",
+    "link",
+    "javascript"
+  ],
+  "author": "Melissa Aquijes <melissa.geral10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
   }
 }
